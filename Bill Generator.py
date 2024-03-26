@@ -1,3 +1,4 @@
+
 def generate_bill():
     items = []
     total_amount = 0
