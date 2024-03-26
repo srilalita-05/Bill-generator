@@ -33,6 +33,8 @@ def generate_bill():
     for item in items:
         print(f"{item['item']}\t\t{item['quantity']}\t\t${item['price']:.2f}\t\t${item['item_total']:.2f}")
 
+
+    
     print("----------------------------------------")
     print(f"Total Amount:\t\t\t\t\t${total_amount:.2f}")
     print(f"GST (18%):\t\t\t\t\t${gst_amount:.2f}")
